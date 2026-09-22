@@ -12,9 +12,12 @@
 
 ```
 summer-site/
-├── index.html
-├── css/styles.css
-├── js/main.js
+├── HTML
+    ├── index.html
+├── CSS
+    ├── styles.css
+├── JS
+    ├── main.js
 ├── images/
 └── README.md
 ```

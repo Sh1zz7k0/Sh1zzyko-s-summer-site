@@ -8,7 +8,7 @@ body {
   background: #9eb8d9;
   color: #1a2332;
   font-family: Nunito, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 1.06rem;
   line-height: 1.55;
 }
 
@@ -31,7 +31,7 @@ button {
 .header__bar {
   display: flex;
   justify-content: flex-end;
-  max-width: 900px;
+  max-width: 56rem;
   margin: 0 auto 1rem;
 }
 
@@ -54,7 +54,7 @@ button {
   align-items: center;
   gap: 0.35em;
   padding: 0.45em 0.95em;
-  border-radius: 999px;
+  border-radius: 62rem;
   border: 1.5px solid rgba(255, 255, 255, 0.45);
   background: rgba(255, 255, 255, 0.2);
   color: #1a2332;
@@ -80,7 +80,7 @@ html[data-theme="dark"] .theme-toggle__moon {
 
 /* Контент */
 .page {
-  max-width: 900px;
+  max-width: 56rem;
   margin: 0 auto;
   padding: 0 1.5rem 3rem;
 }
@@ -99,10 +99,10 @@ html[data-theme="dark"] .theme-toggle__moon {
 /* Карточки */
 .card {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   padding: 1rem;
   box-shadow: 0 8px 24px rgba(30, 50, 80, 0.18);
-  max-width: 420px;
+  max-width: 26rem;
   margin-bottom: 1rem;
 }
 
@@ -117,7 +117,7 @@ html[data-theme="dark"] .theme-toggle__moon {
 .card--center {
   margin-left: auto;
   margin-right: auto;
-  max-width: 520px;
+  max-width: 32.5rem;
 }
 
 .card__date {
@@ -135,7 +135,7 @@ html[data-theme="dark"] .theme-toggle__moon {
 
 .card__photo img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 0.25px;
   object-fit: cover;
 }
 
@@ -155,7 +155,7 @@ html[data-theme="dark"] .theme-toggle__moon {
 
 .card__row .card__photo {
   flex: 1;
-  min-width: 140px;
+  min-width: 0.5rem;
 }
 
 .card__photo--small img,
@@ -201,7 +201,7 @@ html[data-theme="dark"] .card__caption {
 
 html[data-theme="dark"] .card {
   background: #1e2f40;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.45);
 }
 
 html[data-theme="dark"] .card__date {

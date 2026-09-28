@@ -55,7 +55,7 @@ button {
   gap: 0.35em;
   padding: 0.45em 0.95em;
   border-radius: 62rem;
-  border: 1.5px solid rgba(255, 255, 255, 0.45);
+  border: 0.2rem solid rgba(255, 255, 255, 0.45);
   background: rgba(255, 255, 255, 0.2);
   color: #1a2332;
   font-size: 0.85rem;
@@ -101,7 +101,7 @@ html[data-theme="dark"] .theme-toggle__moon {
   background: #fff;
   border-radius: 0.5rem;
   padding: 1rem;
-  box-shadow: 0 8px 24px rgba(30, 50, 80, 0.18);
+  box-shadow: 0 0.5rem 1,5rem rgba(30, 50, 80, 0.18);
   max-width: 26rem;
   margin-bottom: 1rem;
 }
@@ -135,7 +135,7 @@ html[data-theme="dark"] .theme-toggle__moon {
 
 .card__photo img {
   width: 100%;
-  border-radius: 0.25px;
+  border-radius: 0.25rem;
   object-fit: cover;
 }
 
@@ -223,7 +223,7 @@ html[data-theme="dark"] .footer {
 }
 
 /* Телефон */
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
   .header__title {
     font-size: 2.4rem;
   }
